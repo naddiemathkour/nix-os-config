@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 SOURCE_DIR="/etc/nixos/"
 DEST_DIR="~/Documents/GitHub/nix-os-config/"
