@@ -1,7 +1,7 @@
 #!/bin/sh
 
 SOURCE_DIR="/etc/nixos/"
-DEST_DIR="~/Documents/GitHub/nix-os-config"
+DEST_DIR="$HOME/Documents/GitHub/nix-os-config"
 
 # Define Commit Message
 DATE=$(date +"%m-%d-%Y")
