@@ -8,7 +8,7 @@ DATE=$(date +"%m-%d-%Y")
 COMMIT_MSG="Nix config update: $DATE"
 
 # Remove original files
-rm -rf "$DEST_DIR"/*
+rm -rf configuration.nix hardware-configuration.nix
 
 # Copy files
 cp -r "$SOURCE_DIR"/* "$DEST_DIR"
